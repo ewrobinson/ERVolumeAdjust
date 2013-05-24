@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF899464174FE53C0022BDBE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF899463174FE53C0022BDBE /* Cocoa.framework */; };
+		CF89946E174FE53C0022BDBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF89946C174FE53C0022BDBE /* InfoPlist.strings */; };
+		CF899470174FE53C0022BDBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF89946F174FE53C0022BDBE /* main.m */; };
+		CF899474174FE53C0022BDBE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF899472174FE53C0022BDBE /* Credits.rtf */; };
+		CF899477174FE53C0022BDBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF899476174FE53C0022BDBE /* AppDelegate.m */; };
+		CF89947A174FE53D0022BDBE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF899478174FE53D0022BDBE /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF899460174FE53C0022BDBE /* ERVolumeAdjust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ERVolumeAdjust.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF899463174FE53C0022BDBE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CF899466174FE53C0022BDBE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CF899467174FE53C0022BDBE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CF899468174FE53C0022BDBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF89946B174FE53C0022BDBE /* ERVolumeAdjust-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ERVolumeAdjust-Info.plist"; sourceTree = "<group>"; };
+		CF89946D174FE53C0022BDBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF89946F174FE53C0022BDBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF899471174FE53C0022BDBE /* ERVolumeAdjust-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ERVolumeAdjust-Prefix.pch"; sourceTree = "<group>"; };
+		CF899473174FE53C0022BDBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CF899475174FE53C0022BDBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF899476174FE53C0022BDBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF899479174FE53D0022BDBE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF89945D174FE53C0022BDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF899464174FE53C0022BDBE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF899457174FE53C0022BDBE = {
+			isa = PBXGroup;
+			children = (
+				CF899469174FE53C0022BDBE /* ERVolumeAdjust */,
+				CF899462174FE53C0022BDBE /* Frameworks */,
+				CF899461174FE53C0022BDBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF899461174FE53C0022BDBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF899460174FE53C0022BDBE /* ERVolumeAdjust.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF899462174FE53C0022BDBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF899463174FE53C0022BDBE /* Cocoa.framework */,
+				CF899465174FE53C0022BDBE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF899465174FE53C0022BDBE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF899466174FE53C0022BDBE /* AppKit.framework */,
+				CF899467174FE53C0022BDBE /* CoreData.framework */,
+				CF899468174FE53C0022BDBE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CF899469174FE53C0022BDBE /* ERVolumeAdjust */ = {
+			isa = PBXGroup;
+			children = (
+				CF899475174FE53C0022BDBE /* AppDelegate.h */,
+				CF899476174FE53C0022BDBE /* AppDelegate.m */,
+				CF899478174FE53D0022BDBE /* MainMenu.xib */,
+				CF89946A174FE53C0022BDBE /* Supporting Files */,
+			);
+			path = ERVolumeAdjust;
+			sourceTree = "<group>";
+		};
+		CF89946A174FE53C0022BDBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF89946B174FE53C0022BDBE /* ERVolumeAdjust-Info.plist */,
+				CF89946C174FE53C0022BDBE /* InfoPlist.strings */,
+				CF89946F174FE53C0022BDBE /* main.m */,
+				CF899471174FE53C0022BDBE /* ERVolumeAdjust-Prefix.pch */,
+				CF899472174FE53C0022BDBE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF89945F174FE53C0022BDBE /* ERVolumeAdjust */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF89947D174FE53D0022BDBE /* Build configuration list for PBXNativeTarget "ERVolumeAdjust" */;
+			buildPhases = (
+				CF89945C174FE53C0022BDBE /* Sources */,
+				CF89945D174FE53C0022BDBE /* Frameworks */,
+				CF89945E174FE53C0022BDBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ERVolumeAdjust;
+			productName = ERVolumeAdjust;
+			productReference = CF899460174FE53C0022BDBE /* ERVolumeAdjust.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF899458174FE53C0022BDBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Eric Robinson";
+			};
+			buildConfigurationList = CF89945B174FE53C0022BDBE /* Build configuration list for PBXProject "ERVolumeAdjust" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF899457174FE53C0022BDBE;
+			productRefGroup = CF899461174FE53C0022BDBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF89945F174FE53C0022BDBE /* ERVolumeAdjust */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF89945E174FE53C0022BDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF89946E174FE53C0022BDBE /* InfoPlist.strings in Resources */,
+				CF899474174FE53C0022BDBE /* Credits.rtf in Resources */,
+				CF89947A174FE53D0022BDBE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF89945C174FE53C0022BDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF899470174FE53C0022BDBE /* main.m in Sources */,
+				CF899477174FE53C0022BDBE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF89946C174FE53C0022BDBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF89946D174FE53C0022BDBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF899472174FE53C0022BDBE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF899473174FE53C0022BDBE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CF899478174FE53D0022BDBE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF899479174FE53D0022BDBE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF89947B174FE53D0022BDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CF89947C174FE53D0022BDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF89947E174FE53D0022BDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ERVolumeAdjust/ERVolumeAdjust-Prefix.pch";
+				INFOPLIST_FILE = "ERVolumeAdjust/ERVolumeAdjust-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF89947F174FE53D0022BDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ERVolumeAdjust/ERVolumeAdjust-Prefix.pch";
+				INFOPLIST_FILE = "ERVolumeAdjust/ERVolumeAdjust-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF89945B174FE53C0022BDBE /* Build configuration list for PBXProject "ERVolumeAdjust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF89947B174FE53D0022BDBE /* Debug */,
+				CF89947C174FE53D0022BDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF89947D174FE53D0022BDBE /* Build configuration list for PBXNativeTarget "ERVolumeAdjust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF89947E174FE53D0022BDBE /* Debug */,
+				CF89947F174FE53D0022BDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF899458174FE53C0022BDBE /* Project object */;
+}
