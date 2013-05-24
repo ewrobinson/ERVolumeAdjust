@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF22BD1A174FF54700C9A924 /* PMAudioDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22BD17174FF54700C9A924 /* PMAudioDevice.m */; };
-		CF22BD1B174FF54700C9A924 /* PMInputVolumeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22BD19174FF54700C9A924 /* PMInputVolumeControl.m */; };
+		CF22BD1A174FF54700C9A924 /* ERAudioDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22BD17174FF54700C9A924 /* ERAudioDevice.m */; };
+		CF22BD1B174FF54700C9A924 /* ERInputVolumeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22BD19174FF54700C9A924 /* ERInputVolumeControl.m */; };
+		CF22BD1D175005F000C9A924 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF22BD1C175005F000C9A924 /* CoreAudio.framework */; };
+		CF22BD1F175005FC00C9A924 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF22BD1E175005FC00C9A924 /* AVFoundation.framework */; };
 		CF899464174FE53C0022BDBE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF899463174FE53C0022BDBE /* Cocoa.framework */; };
 		CF89946E174FE53C0022BDBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF89946C174FE53C0022BDBE /* InfoPlist.strings */; };
 		CF899470174FE53C0022BDBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF89946F174FE53C0022BDBE /* main.m */; };
@@ -18,10 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CF22BD16174FF54700C9A924 /* PMAudioDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMAudioDevice.h; sourceTree = "<group>"; };
-		CF22BD17174FF54700C9A924 /* PMAudioDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMAudioDevice.m; sourceTree = "<group>"; };
-		CF22BD18174FF54700C9A924 /* PMInputVolumeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMInputVolumeControl.h; sourceTree = "<group>"; };
-		CF22BD19174FF54700C9A924 /* PMInputVolumeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMInputVolumeControl.m; sourceTree = "<group>"; };
+		CF22BD16174FF54700C9A924 /* ERAudioDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERAudioDevice.h; sourceTree = "<group>"; };
+		CF22BD17174FF54700C9A924 /* ERAudioDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERAudioDevice.m; sourceTree = "<group>"; };
+		CF22BD18174FF54700C9A924 /* ERInputVolumeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERInputVolumeControl.h; sourceTree = "<group>"; };
+		CF22BD19174FF54700C9A924 /* ERInputVolumeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERInputVolumeControl.m; sourceTree = "<group>"; };
+		CF22BD1C175005F000C9A924 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		CF22BD1E175005FC00C9A924 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		CF899460174FE53C0022BDBE /* ERVolumeAdjust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ERVolumeAdjust.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF899463174FE53C0022BDBE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CF899466174FE53C0022BDBE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -42,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF22BD1F175005FC00C9A924 /* AVFoundation.framework in Frameworks */,
+				CF22BD1D175005F000C9A924 /* CoreAudio.framework in Frameworks */,
 				CF899464174FE53C0022BDBE /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,6 +75,8 @@
 		CF899462174FE53C0022BDBE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF22BD1E175005FC00C9A924 /* AVFoundation.framework */,
+				CF22BD1C175005F000C9A924 /* CoreAudio.framework */,
 				CF899463174FE53C0022BDBE /* Cocoa.framework */,
 				CF899465174FE53C0022BDBE /* Other Frameworks */,
 			);
@@ -88,11 +96,11 @@
 		CF899469174FE53C0022BDBE /* ERVolumeAdjust */ = {
 			isa = PBXGroup;
 			children = (
+				CF22BD16174FF54700C9A924 /* ERAudioDevice.h */,
+				CF22BD17174FF54700C9A924 /* ERAudioDevice.m */,
+				CF22BD18174FF54700C9A924 /* ERInputVolumeControl.h */,
+				CF22BD19174FF54700C9A924 /* ERInputVolumeControl.m */,
 				CF899475174FE53C0022BDBE /* AppDelegate.h */,
-				CF22BD16174FF54700C9A924 /* PMAudioDevice.h */,
-				CF22BD17174FF54700C9A924 /* PMAudioDevice.m */,
-				CF22BD18174FF54700C9A924 /* PMInputVolumeControl.h */,
-				CF22BD19174FF54700C9A924 /* PMInputVolumeControl.m */,
 				CF899476174FE53C0022BDBE /* AppDelegate.m */,
 				CF899478174FE53D0022BDBE /* MainMenu.xib */,
 				CF89946A174FE53C0022BDBE /* Supporting Files */,
@@ -178,8 +186,8 @@
 			files = (
 				CF899470174FE53C0022BDBE /* main.m in Sources */,
 				CF899477174FE53C0022BDBE /* AppDelegate.m in Sources */,
-				CF22BD1A174FF54700C9A924 /* PMAudioDevice.m in Sources */,
-				CF22BD1B174FF54700C9A924 /* PMInputVolumeControl.m in Sources */,
+				CF22BD1A174FF54700C9A924 /* ERAudioDevice.m in Sources */,
+				CF22BD1B174FF54700C9A924 /* ERInputVolumeControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

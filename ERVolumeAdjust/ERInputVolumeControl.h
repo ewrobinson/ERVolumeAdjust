@@ -1,5 +1,5 @@
 //
-//  PMInputVolumeControl.h
+//  ERInputVolumeControl.h
 //  audioVolumeTest
 //
 //  Created by Eric Robinson on 5/8/13.
@@ -7,18 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "PMAudioDevice.h"
+#import <CoreAudio/CoreAudio.h>
+#import "ERAudioDevice.h"
 
 
-@interface PMInputVolumeControl : NSObject
+@interface ERInputVolumeControl : NSObject
 
 
-@property   (retain)    PMAudioDevice   *selectedDevice;
+@property   (retain)    ERAudioDevice   *selectedDevice;
 @property   (retain)      NSArray         *deviceList;
 
 -(BOOL) selectInputDevice:(NSString*)deviceName;
 
--(void) setInputDeviceVolume:(Float32) toVolume;
+-(void) setInputDeviceVolume:(float) volume;
 
 -(Float32) getInputDeviceVolume;
 

@@ -7,9 +7,30 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <AVFoundation/AVFoundation.h>
+#import "ERInputVolumeControl.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+
+@interface AppDelegate : NSObject <NSApplicationDelegate>{
+    
+    IBOutlet        NSSlider        *volumeSlide;
+    IBOutlet        NSComboBox      *deviceListBox;
+    IBOutlet        NSTextField     *inputVolumeLevel;
+    
+    
+    ERInputVolumeControl        *volumeController;
+    
+    AVCaptureDevice              *selectedAudioDevice;
+}
 
 @property (assign) IBOutlet NSWindow *window;
+
+@property (copy)       NSArray						*audioDeviceList;
+@property (copy)       NSArray                      *audioDeviceListStrings;
+@property (copy)       NSString                     *selectedInputAudioDeviceString;
+
+-(IBAction)changeVolumeForSelectedDevice:(id)sender;
+-(IBAction)audioDeviceChanged:(id)sender;
+
 
 @end

@@ -1,14 +1,14 @@
 //
-//  PMAudioDevice.m
+//  ERAudioDevice.m
 //  audioVolumeTest
 //
 //  Created by Eric Robinson on 5/8/13.
 //  Copyright (c) 2013 Eric Robinson. All rights reserved.
 //
 
-#import "PMAudioDevice.h"
+#import "ERAudioDevice.h"
 
-@implementation PMAudioDevice
+@implementation ERAudioDevice
 
 @synthesize deviceName, deviceUID, deviceID;
 
