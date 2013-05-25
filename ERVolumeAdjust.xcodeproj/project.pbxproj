@@ -26,6 +26,7 @@
 		CF22BD19174FF54700C9A924 /* ERInputVolumeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERInputVolumeControl.m; sourceTree = "<group>"; };
 		CF22BD1C175005F000C9A924 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		CF22BD1E175005FC00C9A924 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CF22BD2017503D7D00C9A924 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		CF899460174FE53C0022BDBE /* ERVolumeAdjust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ERVolumeAdjust.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF899463174FE53C0022BDBE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CF899466174FE53C0022BDBE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -111,6 +112,7 @@
 		CF89946A174FE53C0022BDBE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CF22BD2017503D7D00C9A924 /* README.md */,
 				CF89946B174FE53C0022BDBE /* ERVolumeAdjust-Info.plist */,
 				CF89946C174FE53C0022BDBE /* InfoPlist.strings */,
 				CF89946F174FE53C0022BDBE /* main.m */,
