@@ -21,9 +21,9 @@ That's it! It's like magic, but without the risk of getting sorted into Hufflepu
 float volume = [volumeController getInputDeviceVolume];//will be between 0 and 1.
 ```
 
-### Included is some sample code which should give you a good intro to how it all works. To use it in your project, simply copy over the ERInputVolumeControl.h/.m and ERAudioDevice.h/.m classes, and you are ready to go.
+Included is some sample code which should give you a good intro to how it all works. To use it in your project, simply copy over the ERInputVolumeControl.h/.m and ERAudioDevice.h/.m classes, and you are ready to go.
 
-###Copyright (c) <2013>, <E. Walter Robinson>
+opyright (c) <2013>, <E. Walter Robinson>
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
